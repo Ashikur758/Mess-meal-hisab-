@@ -2,61 +2,58 @@
 
 A simple, lightweight, and user-friendly web application for managing mess meals, member contributions, daily expenses, and automatic meal rate calculations.
 
-The application provides a centralized platform where all members can view records, while only the authorized manager can add, update, or delete information.
+Mess Meal Hisab provides a centralized platform where all members can view records, while only the authorized manager can add, update, or delete information.
 
 **Built with HTML, CSS, Vanilla JavaScript, Firebase Firestore, Firebase Authentication, and Netlify.**
 
 ---
 
-## Overview
+## 🌐 Live Demo
+
+**Website:** https://messashikur.netlify.app/
+
+---
+
+## 📖 Overview
 
 Managing a shared mess requires maintaining accurate records of daily meals, member payments, grocery expenses, and monthly financial calculations.
 
 **Mess Meal Hisab** simplifies this process by replacing traditional manual record-keeping with an organized digital management system.
 
-The application features a clean and accessible interface, making it suitable for everyday mess management.
+The application features a clean, accessible, and user-friendly interface designed for everyday mess management.
 
-## Screenshots
+## 📸 Screenshots
 
 Explore the application's interface through the following screenshots.
 
 ### Application Dashboard
-
-![Application Dashboard](mess-hishab_web/image 1.png)
+![Application Dashboard](mess-hishab_web/image%201.png)
 
 ### Meal Management
+![Meal Management](mess-hishab_web/iamge%203.jpeg)
 
-![Meal Management](mess-hishab_web/iamge 3.jpeg)
-
-###  Member Meal Details
-
-![Member Meal Details](mess-hishab_web/image 2.jpeg)
+### Member Meal Details
+![Member Meal Details](mess-hishab_web/image%202.jpeg)
 
 ### Individual Member Meal Details
-
-![Member Meal Details](mess-hishab_web/image 6.png)
+![Individual Member Meal Details](mess-hishab_web/image%206.png)
 
 ### Expense Management
-
-![Expense Management](mess-hishab_web/iamge 4.jpeg)
+![Expense Management](mess-hishab_web/iamge%204.jpeg)
 
 ### Meal Rate Calculation
-
-![Meal Rate](mess-hishab_web/iamge 5..jpeg)
-
-### Web site Visit link :  https://messashikur.netlify.app/
- 
+![Meal Rate Calculation](mess-hishab_web/iamge%205..jpeg)
 
 ---
 
-## Key Features
+## ✨ Key Features
 
 ### 1. Meal Management
 
 - View all registered mess members.
 - Add new members using the `+` button.
 - Remove members with a confirmation dialog.
-- Open an individual member's meal record by clicking their name.
+- Open individual meal records by clicking a member's name.
 - Track daily meals using interactive checkboxes.
 - Manage three meal categories:
   - Morning
@@ -114,6 +111,8 @@ The application supports two types of access:
 | General Visitor | View all available records |
 | Manager | View, add, edit, and delete records |
 
+Additional authentication features:
+
 - No login is required for general visitors.
 - The manager authenticates using an email address and password.
 - Firebase Authentication handles manager login.
@@ -130,7 +129,7 @@ The application supports a local demo mode when Firebase has not been configured
 
 ---
 
-## Technology Stack
+## 🛠️ Technology Stack
 
 | Technology | Purpose |
 |---|---|
@@ -146,7 +145,7 @@ The application supports a local demo mode when Firebase has not been configured
 
 ---
 
-## Project Structure
+## 📂 Project Structure
 
 ```text
 mess-meal-hisab/
@@ -154,21 +153,20 @@ mess-meal-hisab/
 ├── index.html
 ├── README.md
 │
-└── screenshots/
-    ├── dashboard.png
-    ├── meal-management.png
-    ├── member-meals.png
-    ├── collections.png
-    ├── expenses.png
-    ├── meal-rate.png
-
+└── mess-hishab_web/
+    ├── image 1.png
+    ├── iamge 3.jpeg
+    ├── image 2.jpeg
+    ├── image 6.png
+    ├── iamge 4.jpeg
+    └── iamge 5..jpeg
 ```
 
 The entire frontend application is implemented in a single `index.html` file, making the project lightweight and easy to deploy.
 
 ---
 
-## Installation and Configuration
+## 🚀 Installation and Configuration
 
 ### Prerequisites
 
@@ -243,7 +241,7 @@ You can deploy the application using either of the following methods.
 
 **Option A: Manual Deployment**
 
-1. Visit [Netlify](https://messashikur.netlify.app/).
+1. Visit [Netlify](https://www.netlify.com/).
 2. Navigate to Sites.
 3. Select **Add new site → Deploy manually**.
 4. Drag and drop the project folder.
@@ -257,10 +255,8 @@ You can deploy the application using either of the following methods.
 4. Connect your GitHub account.
 5. Select the project repository.
 6. Configure the deployment settings:
-
    - Build Command: Leave empty.
    - Publish Directory: `/`
-
 7. Deploy the site.
 
 No build process is required.
@@ -277,14 +273,14 @@ To enable manager authentication on your deployed website:
 Example:
 
 ```text
-your-site.netlify.app
+messashikur.netlify.app
 ```
 
 The manager can now log in using the configured email and password.
 
 ---
 
-## Application Workflow
+## 🔄 Application Workflow
 
 1. Open the website to access the application.
 2. Navigate to Meal Management and configure the mess starting date.
@@ -312,7 +308,7 @@ Before applying the new date:
 
 ---
 
-## Database Structure
+## 🗄️ Database Structure
 
 The application stores its main data in a single Cloud Firestore document:
 
@@ -395,11 +391,11 @@ Here, `1` represents a meal taken and `0` represents no meal.
 
 ---
 
-## Important Notes and Limitations
+## ⚠️ Important Notes and Limitations
 
 - Firebase must be configured to enable cloud-based data synchronization.
 - Without Firebase configuration, the application operates in local demo mode.
-- Demo-mode data is stored only in the current browser's localStorage.
+- Demo-mode data is stored only in the current browser's `localStorage`.
 - Only one manager account is intended in the current implementation.
 - Simultaneous edits by multiple managers may overwrite each other because the application uses a single Firestore document.
 - Starting a new accounting period clears previous monthly records.
@@ -407,7 +403,7 @@ Here, `1` represents a meal taken and `0` represents no meal.
 
 ---
 
-## Future Improvements
+## 🔮 Future Improvements
 
 Potential enhancements for future versions include:
 
@@ -422,7 +418,17 @@ Potential enhancements for future versions include:
 
 ---
 
-## License
+## 📄 License
 
 This project is developed for educational and practical mess management purposes.
 
+---
+
+## 👨‍💻 Author
+
+**Ashikur Rahman Ashik**
+
+- GitHub: [@Ashikur758](https://github.com/Ashikur758)
+- Project: [Mess Meal Hisab](https://messashikur.netlify.app/)
+
+**If you find this project useful, consider giving it a ⭐ on GitHub!**
