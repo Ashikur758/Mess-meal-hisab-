@@ -22,31 +22,30 @@ Explore the application's interface through the following screenshots.
 
 ### Application Dashboard
 
-![Application Dashboard](screenshots/dashboard.png)
+![Application Dashboard](mess-hishab_web/image 1.png)
 
 ### Meal Management
 
-![Meal Management](screenshots/meal-management.png)
+![Meal Management](mess-hishab_web/iamge 3.jpeg)
+
+###  Member Meal Details
+
+![Member Meal Details](mess-hishab_web/image 2.jpeg)
 
 ### Individual Member Meal Details
 
-![Member Meal Details](screenshots/member-meals.png)
-
-### Member Collections
-
-![Member Collections](screenshots/collections.png)
+![Member Meal Details](mess-hishab_web/image 6.png)
 
 ### Expense Management
 
-![Expense Management](screenshots/expenses.png)
+![Expense Management](mess-hishab_web/iamge 4.jpeg)
 
 ### Meal Rate Calculation
 
-![Meal Rate](screenshots/meal-rate.png)
+![Meal Rate](mess-hishab_web/iamge 5..jpeg)
 
-### Khala's Money Management
-
-![Khala's Money](screenshots/khala-money.png)
+### Web site Visit link :  https://messashikur.netlify.app/
+ 
 
 ---
 
@@ -162,7 +161,7 @@ mess-meal-hisab/
     ├── collections.png
     ├── expenses.png
     ├── meal-rate.png
-    └── khala-money.png
+
 ```
 
 The entire frontend application is implemented in a single `index.html` file, making the project lightweight and easy to deploy.
@@ -244,7 +243,7 @@ You can deploy the application using either of the following methods.
 
 **Option A: Manual Deployment**
 
-1. Visit [Netlify](https://www.netlify.com/).
+1. Visit [Netlify](https://messashikur.netlify.app/).
 2. Navigate to Sites.
 3. Select **Add new site → Deploy manually**.
 4. Drag and drop the project folder.
